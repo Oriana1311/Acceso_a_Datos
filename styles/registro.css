@@ -1,0 +1,48 @@
+#content{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+}
+
+form{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+form a{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+form p:last-child{
+    color: #777;
+}
+
+input[type="submit"]{
+    width: 100px;
+    padding: 5px;
+    margin: 10px;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+footer{
+    background-color: #777;
+    margin-top: 10px;
+    height: 150px;
+    line-height: 150px;
+    font-family:monospace;
+    font-size: 15px;
+    text-align: center;
+    color: whitesmoke;
+}
+

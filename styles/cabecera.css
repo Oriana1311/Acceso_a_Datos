@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*CABECERA*/
+
+header{
+    color: whitesmoke;
+    background-image: url(img/bear.jpg);
+    height: 400px; 
+    background-position: 10% 90%;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 100%;
+    line-height: 390px;
+    font-family:Verdana, Tahoma, sans-serif;
+    font-size: 100px;
+    padding-left: 170px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px rgb(119, 119, 119);
+}
+
+/*MENU*/
+
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1.1px;
+}
+
+body,
+html {
+  width: 100%;
+  height: 200px;
+  background: whitesmoke;
+  font-family: "Varela Round", sans-serif;
+}
+
+nav{
+    width: 100%;
+    border-bottom: 1px solid #777;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 720px;
+  margin: 0 auto;
+  padding-top: 20px;
+  list-style: none;
+}
+
+.menu li {
+  width: 125px;
+  height: 50px;
+  background-position-x: 0.9s linear;
+  text-align: center;
+}
+
+
+a{
+    font-size: 22px;
+    color: #777;
+    text-decoration: none;
+    transition: all 0.25s;
+}
+
+a:hover {
+   color: rgb(59, 59, 59);
+}
+
+a:hover a {
+    color: whitesmoke;
+}
+
+a:not(:last-child) {
+    margin-right: 30px;
+}
+
+@keyframes line {
+  0% {
+    background-position-x: 390px;
+  }
+}
+
