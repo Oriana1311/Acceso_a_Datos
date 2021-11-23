@@ -62,7 +62,7 @@
                 <p>Usuario: <input type="text" name="usuario" placeholder="Usuario"></p>
 
                 <span class="error"><?php echo $errContrasenna ?></span><br>
-                <p>Contraseña: <input type="text" name="contrasenna" placeholder="Contraseña" value="<?php echo $contrasenna ?>" ></p>
+                <p>Contraseña: <input type="password" name="contrasenna" placeholder="Contraseña" value="<?php echo $contrasenna ?>" ></p>
                 <input type="submit" value="Entrar">
                 <p>¿No estás registrado aun? <a href="registro.php">Regístrate</a></p>
             </form>
