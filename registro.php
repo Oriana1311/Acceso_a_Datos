@@ -123,6 +123,7 @@ function test_input($data) {
 if ($errores == 0 && $usuario != "") {
     $sql = "INSERT INTO usuarios (nombre, usuario, email, contrasenna) VALUES ('" . $nombre . "','" . $usuario . "','" . $email . "','" . $contrasenna . "') ";
     if (mysqli_query($conn, $sql)) {
+        setcookie($usuario, 1, time() + 365*24*60*60);
         header("Location: entrada.php");
     }
 }

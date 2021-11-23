@@ -40,6 +40,7 @@
                 $errContrasenna = "La contraseña es incorrecta";
                 $errores = 1;
             } else {
+                setcookie($usuario, $_COOKIE[$usuario]+1);
                 header('Location: entrada.php');
             }
         }

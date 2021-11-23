@@ -13,7 +13,9 @@
     
     $fila = mysqli_fetch_array($result);
     
-    echo "<h1>Bienvenido! ".$fila["nombre"]." </h1>";
+    echo "<h1>Bienvenido ".$fila["nombre"]."! </h1>";
+    
+    echo "Has entrado ".$_COOKIE[$usuario]. " veces."
 
 ?>
 
