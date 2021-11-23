@@ -58,10 +58,10 @@
 
         <div id="content">
             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" class="form-hero" method="POST">
-                <span class="error"> <?php echo $errUsuario ?></span><br>
+                <span class="error"><?php echo $errUsuario ?></span><br>
                 <p>Usuario: <input type="text" name="usuario" placeholder="Usuario"></p>
 
-                <span class="error"> <?php echo $errContrasenna ?></span><br>
+                <span class="error"><?php echo $errContrasenna ?></span><br>
                 <p>Contraseña: <input type="text" name="contrasenna" placeholder="Contraseña" value="<?php echo $contrasenna ?>" ></p>
                 <input type="submit" value="Entrar">
                 <p>¿No estás registrado aun? <a href="registro.php">Regístrate</a></p>

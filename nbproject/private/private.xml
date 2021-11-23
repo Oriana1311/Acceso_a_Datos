@@ -5,10 +5,9 @@
         <group>
             <file>file:/C:/xampp/htdocs/ProyectoPHP/index.php</file>
             <file>file:/C:/xampp/htdocs/ProyectoPHP/login.php</file>
+            <file>file:/C:/xampp/htdocs/ProyectoPHP/entrada.php</file>
             <file>file:/C:/xampp/htdocs/ProyectoPHP/registro.php</file>
-            <file>file:/C:/xampp/htdocs/ProyectoPHP/styles/cabecera.css</file>
             <file>file:/C:/xampp/htdocs/ProyectoPHP/cabecera.php</file>
-            <file>file:/C:/xampp/htdocs/ProyectoPHP/insert.php</file>
         </group>
     </open-files>
 </project-private>
