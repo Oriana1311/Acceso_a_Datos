@@ -1,8 +1,6 @@
 <?php
     session_start();
 
-
-
         include "cabecera.php";
 
         $conn = mysqli_connect("localhost", "root", "", "bdamorosos");
@@ -10,6 +8,8 @@
         $usuario = $contrasenna = "";
         $errUsuario = $errContrasenna = "";
         $errores = 0;
+
+        //VALIDACION DEL LOGIN
 
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
@@ -55,6 +55,9 @@
         }
 
 ?>
+
+        <!--FORMULARIO HTML LOGIN -->
+        
         <h1>LOGIN</h1>
 
         <div id="content">

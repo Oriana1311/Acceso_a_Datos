@@ -11,6 +11,7 @@
 </head>
 <body>
     <header>AMOROSOS</header>
+    <!--Modificar cabecera (usuario/inicio)-->
     <nav>
         <ul class="menu">
           <li><a href="index.php">Amorosos</a></li>
@@ -18,5 +19,3 @@
           <li><a href="registro.php">Regístrate</a></li>
         </ul>
     </nav>  
-</body>
-</html>

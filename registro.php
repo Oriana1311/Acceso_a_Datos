@@ -9,6 +9,8 @@ $errNombre = $errUsuario = $errEmail = $errContrasenna = $errContrasenna2 = "";
 $nombre = $usuario = $email = $contrasenna = $contrasenna2 = "";
 $errores = 0;
 
+//VALIDACION DEL REGISTRO
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["nombre"])) {
         $errNombre = "Rellena el campo Nombre";
@@ -79,6 +81,8 @@ function test_input($data) {
 }
 ?>
 
+<!--FORMULARIO HTML REGISTRO-->
+
 <h1>REGISTRO</h1>
 
 <div id="content">
@@ -120,6 +124,9 @@ function test_input($data) {
 </div>
 
 <?php
+
+//SI NO TIENE ERRORES, SE INSERTA UN NUEVO USUARIO Y SE CREA LA COOKIE PARA VER CUANTAS VECES SE CONECTA
+
 if ($errores == 0 && $usuario != "") {
     $sql = "INSERT INTO usuarios (nombre, usuario, email, contrasenna) VALUES ('" . $nombre . "','" . $usuario . "','" . $email . "','" . $contrasenna . "') ";
     if (mysqli_query($conn, $sql)) {
